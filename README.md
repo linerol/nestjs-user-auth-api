@@ -22,9 +22,11 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# Login API
+# 🔐 NestJS Auth Starter Template
 
-Login API est une application serveur scalable et efficace construite avec le framework [NestJS](https://nestjs.com). Elle fournit une plateforme robuste pour la gestion des utilisateurs et l'authentification via tokens JWT.
+Template NestJS robuste et production-ready pour la gestion des utilisateurs et l'authentification JWT. Idéal comme point de départ pour tout projet d'authentification.
+
+> **Utiliser ce template** : Cliquez sur le bouton **"Use this template"** en haut du repository GitHub
 
 ## Fonctionnalités
 
