@@ -1,58 +1,58 @@
 # Contributing Guide
 
-Merci de votre intérêt pour ce template ! Voici comment contribuer.
+Thank you for your interest in this template! Here’s how to contribute.
 
-## Pour les utilisateurs du template
+## For Template Users
 
-### 1. **Créer un nouveau repository depuis ce template**
-   - Sur GitHub, cliquez sur **"Use this template"** → **"Create a new repository"**
-   - Choisissez un nom pour votre projet
-   - Clonez le nouveau repository
+### 1. **Create a New Repository from this Template**
+   - On GitHub, click **"Use this template"** → **"Create a new repository"**
+   - Choose a name for your project
+   - Clone the new repository
 
-### 2. **Configuration initiale**
+### 2. **Initial Setup**
    ```bash
    npm install
    cp .env.example .env
-   # Mettez à jour les variables dans .env
+   # Update the variables in .env
    ```
 
-### 3. **Démarrer le développement**
+### 3. **Start Development**
    ```bash
    npm run start:dev
    ```
 
-### 4. **Personnaliser pour votre projet**
-   - Mettez à jour `package.json` (name, description, author)
-   - Modifiez le `README.md` pour votre projet
-   - Adaptez la structure des modules selon vos besoins
-   - Changez les secrets JWT dans `.env`
+### 4. **Customize for Your Project**
+   - Update `package.json` (name, description, author)
+   - Edit the `README.md` for your project
+   - Adapt the module structure as needed
+   - Change the JWT secrets in `.env`
 
-## Pour les contributeurs du template
+## For Template Contributors
 
-### Signaler des bugs
-- Créez une issue avec le label `bug`
-- Décrivez le comportement observé et attendu
-- Incluez les étapes pour reproduire
+### Reporting Bugs
+- Create an issue with the `bug` label
+- Describe the observed and expected behavior
+- Include steps to reproduce
 
-### Proposer des améliorations
-- Créez une issue avec le label `enhancement`
-- Expliquez votre proposition
-- Attendez le feedback avant de commencer le développement
+### Proposing Enhancements
+- Create an issue with the `enhancement` label
+- Explain your proposal
+- Wait for feedback before starting development
 
 ### Pull Requests
-1. Fork le repository
-2. Créez une branche : `git checkout -b feature/your-feature`
-3. Commitez vos changements : `git commit -m 'Add new feature'`
-4. Poussez la branche : `git push origin feature/your-feature`
-5. Ouvrez une Pull Request
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add new feature'`
+4. Push the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ## Standards
 
-- Utilisez TypeScript strictement
-- Suivez les conventions ESLint du projet
-- Écrivez des tests pour les nouvelles fonctionnalités
-- Documentez les changements dans le README si nécessaire
+- Use strict TypeScript
+- Follow the project’s ESLint conventions
+- Write tests for new features
+- Document changes in the README if necessary
 
-## Questions ?
+## Questions?
 
-Contactez les mainteneurs du template.
+Contact the template maintainers.

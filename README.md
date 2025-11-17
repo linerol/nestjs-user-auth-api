@@ -24,64 +24,64 @@
 
 # 🔐 NestJS Auth Starter Template
 
-Template NestJS robuste et production-ready pour la gestion des utilisateurs et l'authentification JWT. Idéal comme point de départ pour tout projet d'authentification.
+A robust, production-ready NestJS template for user management and JWT authentication. Ideal as a starting point for any authentication project.
 
-> **Utiliser ce template** : Cliquez sur le bouton **"Use this template"** en haut du repository GitHub
+> **How to use this template:** Click the **"Use this template"** button at the top of the GitHub repository page.
 
-## Fonctionnalités
+## Features
 
-### Gestion des Utilisateurs
-- **Inscription**: Permet aux utilisateurs de créer un compte avec des mots de passe sécurisés via bcrypt.
-- **Connexion**: Authentifie les utilisateurs via email et mot de passe, délivrant des tokens JWT (access et refresh tokens) lors d'une connexion réussie.
-- **Gestion des Tokens**: 
-  - Tokens d'accès pour l'authentification à court terme.
-  - Tokens de rafraîchissement pour obtenir de nouveaux tokens d'accès sans ré-authentification.
-- **Autorisation**: Protège les routes en utilisant des guards pour s'assurer que seuls les utilisateurs authentifiés peuvent accéder à des endpoints spécifiques.
+### User Management
+- **Registration:** Allows users to create an account with secure passwords using bcrypt.
+- **Login:** Authenticates users via email and password, issuing JWT access and refresh tokens upon successful login.
+- **Token Management:**
+  - Access tokens for short-term authentication.
+  - Refresh tokens to obtain new access tokens without re-authentication.
+- **Authorization:** Protects routes using guards to ensure only authenticated users can access specific endpoints.
 
-### Configuration de l'Environnement
-- Utilise des variables d'environnement pour gérer les configurations sensibles comme les URIs de base de données, les secrets JWT, et les durées d'expiration des tokens.
-- Configuration centralisée assurant flexibilité et sécurité lors du déploiement.
+### Environment Configuration
+- Uses environment variables to manage sensitive configurations such as database URIs, JWT secrets, and token expiration times.
+- Centralized configuration ensures flexibility and security during deployment.
 
 ## Project Setup
 
 ```bash
-$ npm install
+npm install
 ```
 
-## Compile and run the project
+## Compile and Run the Project
 
 ```bash
 # development
-$ npm run st
+npm run start
 # watch mode
-$ npm run start:dev
+yarn start:dev
 
 # production mode
-$ npm run start:prod
+npm run start:prod
 ```
 
-## Run tests
+## Run Tests
 
 ```bash
 # unit tests
-$ npm run test
+npm run test
 
 # e2e tests
-$ npm run test:e2e
+npm run test:e2e
 
 # test coverage
-$ npm run test:cov
+npm run test:cov
 ```
 
-## Ressources
+## Resources
 
-Consultez quelques ressources qui peuvent être utiles lors du travail avec NestJS:
+Useful resources when working with NestJS:
 
-- Visitez la [Documentation NestJS](https://docs.nestjs.com) pour en savoir plus sur le framework.
+- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
 
-## Variables d'Environnement
+## Environment Variables
 
-Pour configurer votre application, définissez les variables d'environnement suivantes:
+To configure your application, set the following environment variables:
 
 ```plaintext
 DB_URI=mongodb://localhost:27017/login-api
@@ -93,13 +93,13 @@ JWT_REFRESH_TOKEN_EXPIRES=7d
 
 ## Support
 
-Nest est un projet open source sous licence MIT. Il peut grandir grâce aux sponsors et au soutien des incroyables contributeurs. Si vous souhaitez les rejoindre, veuillez [lire plus ici](https://docs.nestjs.com/support).
+Nest is an open-source project licensed under MIT. It grows thanks to sponsors and the support of amazing contributors. If you want to join them, please [read more here](https://docs.nestjs.com/support).
 
 ## Contact
 
-- Project Manager - [Linerol TCHECOUNNOU](sessiessenamlinerol.tchecounnou@ynov.com)
-- Backend Developer - [Jenny CHOUFACK](jenny.choufack@ynov.com)
-- Backend Developer - [Hanim MOUSSA YARI](hanimorounassara.moussayari@ynov.com)
+- Project Manager - [Linerol TCHECOUNNOU](mailto:sessiessenamlinerol.tchecounnou@ynov.com)
+- Backend Developer - [Jenny CHOUFACK](mailto:jenny.choufack@ynov.com)
+- Backend Developer - [Hanim MOUSSA YARI](mailto:hanimorounassara.moussayari@ynov.com)
 
 ## License
 
